@@ -1,0 +1,104 @@
+html,
+
+body {
+  font-family: "Jacques Francois";
+  font-size: 14px;
+  margin: 0;
+  min-height: 500px;
+  padding: 0;
+  width: 390px;
+  background-color: #3B586B;
+}
+
+h1 {
+  font-family: "Jacques Francois";
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0;
+  color: #F9EFC7;
+}
+
+img {
+  width: 30px;
+}
+
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: "Jacques Francois";
+}
+
+.hidden {
+  display: none;
+}
+
+#tablinkContainer {
+  display: flex;
+}
+
+.tablink-content {
+  padding: 0 15px;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #F9EFC7;
+  font-weight: bold;
+  color: black;
+  font-family: "Jacques Francois";
+  float: left;
+  outline: black;
+  cursor: pointer;
+  padding: 12px 14px;
+  font-size: 20px;
+  width: 33.33%;
+}
+
+.tablink:hover {
+  background-color: #FDCCA0;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: black;
+  padding: 70px 20px;
+  height: 100%;
+  font-size: 20px;
+}
+
+
+#Bookmark {background-color: #3B586B;}
+#Trips {background-color: #3B586B;}
+#Account {background-color: #3B586B;}
+
+.modal-header {
+  align-items: center;
+  background-color: #3B586B;
+}
+
+.modal-content {
+  padding: 0 22px;
+}
+
+.modal-icons {
+  border-top: 0.5px solid #F9EFC7;
+  height: 50px;
+  width: 100%;
+}
+
+.logo {
+  padding: 16px;
+}
+
+.logo-icon {
+  vertical-align: text-bottom;
+  margin-right: 12px;
+}
+
+.version {
+  color: #F9EFC7;
+  font-size: 15px;
+}

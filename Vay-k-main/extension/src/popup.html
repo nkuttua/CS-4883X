@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vay-K</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="popup.css">
+  </head>
+
+  <body>
+    <div class="modal-header">
+      <h1 class="logo">
+        <img class="logo-icon" src="images/logo2.png" sizes="20px"/>Vay-K
+        <span class="version">(1.0)</span>
+      </h1>
+    </div>
+
+    <div id="tablinkContainer">
+      <button class="tablink" data-link="bookmark">Bookmark</button>
+      <button class="tablink" data-link="trip">Trips</button>
+      <button class="tablink" data-link="account">Account</button>
+    </div>
+
+    <div class="tablink-content">
+      <div id="account" class="tabContent hidden">
+          <h3>Account</h3>
+          <p>View access to account settings</p>
+      </div>
+
+      <div id="bookmark" class="tabContent hidden">
+        <h3>Bookmark</h3>
+        <p>Check bookmarks that have been saved</p>
+      </div>
+
+      <div id="trip" class="tabContent hidden">
+        <h3>Trips</h3>
+        <p>Look at previously saved trips</p> 
+      </div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

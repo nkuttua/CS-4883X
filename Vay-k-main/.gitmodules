@@ -1,0 +1,6 @@
+[submodule "vay-k-web"]
+	path = vay-k-web
+	url = https://github.com/ewang329/vay-k-web
+[submodule "vay-k-backend"]
+	path = vay-k-backend
+	url = https://github.com/jelkewcharoen/vay-k-backend
